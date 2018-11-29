@@ -9,7 +9,7 @@ We don't ask that you prove you made money or anything like that, just make sure
 
 1. Your strategy must be written in Go and compilable as an integrated component of a Kelp build
 2. Your strategy must be deployable; it must successfully place orders on the Stellar network
-3. Your strategy must not modify the core Kelp code in such as way your build could not run the out-of-the-box strategies.
+3. Your strategy must not modify the core Kelp code in such a way that your build could not run the out-of-the-box strategies.
 This is to ensure that others who use your strategy can integrate it with the rest of their Kelp build.
 4. You must provide detailed documentation of your strategy. This should include:
 
@@ -30,7 +30,7 @@ At minimum your strategy will need:
 3. The code to add to *factory.go* to make your strategy callable from the command line, named *addTo_factory.go*
 4. Your documentation file, named *README.md*
 
-If your strategy needs additional components added to the core Kelp code, include them as *addTo_[path/filename].go*. 
+If your strategy needs additional components added to the core Kelp code, include them as *addTo_[path/filename]*. 
 For example you might have *addTo_support/utils/functions.go*. Remember to **add**, not **overwrite**. 
 You do not need to include the rest of the core file, just tell us where it goes.
 
@@ -63,7 +63,7 @@ When your strategy is ready to go:
 
 Someone will review your contribution, and ask questions or suggest revisions as appropriate.
 
-If you would like to maintain your strategy's code here in the compendium we can set you up as a member of kelpbot-forest and make you the code owner for your folder.
+If you would like to maintain your strategy's code here in the compendium we can set you up as a Kelp Forest member and make you the code owner for your folder.
 If not, we'll maintain your folder and manage additional contributions to it, giving any pull requests from you priority over third parties.
 
 ### Intellectual Property Information
