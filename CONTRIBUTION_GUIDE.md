@@ -34,6 +34,18 @@ If your strategy needs additional components added to the core Kelp code, includ
 For example you might have *addTo_support/utils/functions.go*. Remember to **add**, not **overwrite**. 
 You do not need to include the rest of the core file, just tell us where it goes.
 
+Please base your strategy's code on either the most recent Kelp release or a current copy of the Kelp *master* branch.
+Include in your documentation the *./kelp version* output for the build you tested your strategy with.
+It will look something like this:
+
+````
+version: v1.0.0-rc1
+git hash: 337f478b0e7a1dc235aef31788754bc1ab11b6a1
+build date: 20180813T231816Z
+GOOS: linux
+GOARCH: amd64
+````
+
 ### Code Style
 
 It's a good idea to follow the Kelp code conventions as much as feasible. 
