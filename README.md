@@ -1,3 +1,7 @@
+## kelpbot-forest/kelp-strategies is currently inactive and archived
+
+-----------------------------------
+
 # kelp-strategies
 
 This is a compendium of custom strategies for the [Stellar network](https://www.stellar.org/) trading bot [Kelp](https://github.com/lightyeario/kelp), contributed by the Kelp user community.
